@@ -1,0 +1,26 @@
+{
+  "name": "emotion-dictionary",
+  "version": "1.0.0",
+  "description": "情绪词典 - 基于《情绪词典：你的感受试图告诉你什么》的情绪分析工具",
+  "main": "scripts/query.js",
+  "bin": {
+    "emotion-dictionary": "./scripts/query.js",
+    "emotion-analyze": "./scripts/analyze.js"
+  },
+  "scripts": {
+    "query": "node scripts/query.js",
+    "analyze": "node scripts/analyze.js",
+    "list": "node scripts/query.js list",
+    "search": "node scripts/query.js search"
+  },
+  "keywords": [
+    "emotion",
+    "feelings",
+    "psychology",
+    "mental-health",
+    "情绪",
+    "心理"
+  ],
+  "author": "OpenClaw Skills",
+  "license": "MIT"
+}

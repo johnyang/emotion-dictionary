@@ -31,6 +31,9 @@ node scripts/analyze.js analyze "今天工作压力很大"
 emotion-dictionary/
 ├── SKILL.md              # 技能说明
 ├── package.json          # 项目配置
+├── README.md             # 本文件
+├── 参考资料/
+│   └── README.md         # 原书获取说明
 ├── data/
 │   └── emotions.json     # 情绪数据库（32 个情绪）
 └── scripts/
